@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Register</title>
+<h1>使用者註冊</h1>
+</head>
+
+    <body>
+	<form action="action_page.php">
+	帳號:&nbsp;<input type="text" placeholder="請輸入您的帳號"> <br>
+	密碼:&nbsp;<input type="text"> <br>
+	電子郵件:<input type="text" placeholder="請填寫您的電子郵件"> <br>
+	生日:&nbsp;<input type="text" value = "年/月/日"> <br>
+	
+	<p>
+	性別:
+	<label> 
+		<input name = "sex" type = "radio" value = "boy">男
+		<input name = "sex" type = "radio" value = "girl">女
+		<input name = "sex" type = "radio" value = "bisexual">其它
+	</lable>
+		
+	</p>	
+	
+	<p>
+	喜好:
+	<label> 
+		<input name = "likes" type = "checkbox" value = "打球"></lable>
+	<label> 打球
+		<input name = "likes" type = "checkbox" value = "打電動"></lable>
+	<label> 打電動
+		<input name = "likes" type = "checkbox" value = "購物"></lable>
+	<label> 購物
+		<input name = "likes" type = "checkbox" value = "其它"></lable>
+	 	其它
+	</p>
+	
+	<p>	
+	年級:
+	<label>
+	<select name = "year"><br>
+	<option selected>一年級</option>
+	<option>二年級</option>
+	<option>三年級</option>
+	<option>四年級</option>
+	</lable>
+	</p>
+	
+	<p>
+	<br><br>
+	<input type = "submit" value = "送出">
+	<input type = "reset" value = "重設">
+	</p>
+	
+	</form>
+    </body>
+
+<html>
